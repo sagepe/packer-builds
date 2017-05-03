@@ -1,0 +1,9 @@
+{
+  "guest_os_type": "Debian_64",
+  "os_id": "Debian",
+  "os_name": "wheezy",
+  "iso_file": "debian-7.11.0-amd64-netinst.iso",
+  "iso_checksum_type": "sha256",
+  "iso_checksum": "62876fb786f203bc732ec1bd2ca4c8faea19d0a97c5936d69f3406ef92ff49bd",
+  "install_puppet": "false"
+}
