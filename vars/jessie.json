@@ -1,0 +1,9 @@
+{
+  "guest_os_type": "Debian_64",
+  "os_id": "Debian",
+  "os_name": "jessie",
+  "iso_file": "debian-8.7.1-amd64-netinst.iso",
+  "iso_checksum_type": "sha256",
+  "iso_checksum": "749a15b7690769dd99e85d6104182a03d370b04b36106ec7cfaf6a551aa89fb4",
+  "install_puppet": "false"
+}
