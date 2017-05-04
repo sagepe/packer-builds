@@ -2,6 +2,7 @@
   "builders": [
     {
       "type": "virtualbox-iso",
+      "vm_name": "{{ user `os_name` }}",
       "guest_os_type": "{{ user `guest_os_type` }}",
       "iso_url": "iso/{{ user `iso_file` }}",
       "iso_checksum_type": "{{ user `iso_checksum_type` }}",
