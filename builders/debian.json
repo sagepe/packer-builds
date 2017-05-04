@@ -55,7 +55,7 @@
       "scripts": [
         "scripts/update.sh",
         "scripts/vagrant.sh",
-        "scripts/guest_additions.sh",
+        "scripts/virtualbox.sh",
         "scripts/cleanup.sh"
       ]
     }
