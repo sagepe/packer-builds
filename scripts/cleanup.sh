@@ -41,6 +41,11 @@ find /var/log -type f | while read log ; do :> $log ; done
 ## tmp
 rm -fr /tmp/*
 
+## machine-id
+if [ -e "/etc/machine-id" ] ; then
+  :>/etc/machine-id
+fi
+
 ## Disk space
 dd if=/dev/zero of=/EMPTY bs=1M
 rm -f /EMPTY
