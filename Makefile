@@ -1,6 +1,8 @@
+# Simple Makefile wrapper.
+
 .PHONEY: clean jessie wheezy test upload all
 
-all: wheezy jessie
+all: clean wheezy jessie
 
 clean:
 	@echo "Removing all box files."
