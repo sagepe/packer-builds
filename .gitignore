@@ -1,5 +1,6 @@
-# Packer Cache.
+# Packer
 packer_cache/
+output-virtualbox-iso/
 
 # The boxes/ directory is for outputs.
 # Ignore everything apart from README.md.
@@ -7,4 +8,4 @@ boxes/*
 !boxes/README.md
 
 # We don't want the actual ISO images in version control.
-isos/*.iso
+iso/*.iso
