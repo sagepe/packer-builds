@@ -16,11 +16,11 @@ clobber: clean
 
 jessie:
 	@echo "Building Jessie."
-	packer -var-file=jessie.json builders/debian.json
+	packer build -var-file=vars/jessie.json builders/debian.json
 
 wheezy:
 	@echo "Building Wheezy."
-	packer -var-file=wheezy.json builders/debian.json
+	packer build -var-file=vars/wheezy.json builders/debian.json
 
 test:
 	@echo "Test not implemented."
