@@ -26,6 +26,10 @@ wheezy:
 	@echo "Building Wheezy."
 	packer build -var-file=vars/wheezy.json builders/debian.json
 
+centos6:
+	@echo "Building CentOS 6."
+	packer build -var-file=vars/centos6.json builders/centos.json
+
 test:
 	@echo "Test not implemented."
 
