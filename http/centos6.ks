@@ -26,6 +26,7 @@ reboot
 openssh-clients
 openssh-server
 sudo
+redhat-lsb-core
 %end
 
 %post
