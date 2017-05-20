@@ -17,7 +17,7 @@
         " locale=en_GB",
         " keymap=uk",
         " netcfg/get_hostname={{.Name}}",
-        " netcfg/get_domain=build ",
+        " netcfg/get_domain=vagrant.internal",
         "<enter>"
       ],
       "disk_size": 32768,
@@ -56,6 +56,7 @@
         "scripts/update.sh",
         "scripts/vagrant.sh",
         "scripts/virtualbox.sh",
+        "scripts/puppet.sh",
         "scripts/cleanup.sh"
       ]
     }
