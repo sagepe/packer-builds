@@ -14,6 +14,10 @@ clobber: clean
 	@echo "Removing packer_cache directory."
 	rm -fr packer_cache
 
+buster:
+	@echo "Building buster."
+	packer build -var-file=vars/buster.json builders/debian.json
+
 stretch:
 	@echo "Building Stretch."
 	packer build -var-file=vars/stretch.json builders/debian.json
