@@ -2,8 +2,8 @@
   "guest_os_type": "Debian_64",
   "os_id": "Debian",
   "os_name": "stretch",
-  "iso_file": "debian-9.0.0-amd64-netinst.iso",
+  "iso_file": "debian-9.13.0-amd64-netinst.iso",
   "iso_checksum_type": "sha256",
-  "iso_checksum": "9d98f339016dc2a3998881949a8f0678baede26b5106f18ef1168d7e13606773",
+  "iso_checksum": "71c7e9eb292acc880f84605b1ca2b997f25737fe0a43fc9586f61d35cd2eb43b",
   "install_puppet": "false"
 }
